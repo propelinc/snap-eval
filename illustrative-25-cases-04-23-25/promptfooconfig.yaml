@@ -1,0 +1,14 @@
+# promptfooconfig.yaml
+prompts:
+  - '{{question}}'
+
+providers:
+  - openai:gpt-4o-mini
+  - openai:o1
+  - openai:o3-mini
+  - anthropic:messages:claude-3-5-sonnet-20241022
+  - anthropic:messages:claude-3-7-sonnet-20250219
+  - google:gemini-2.0-flash-exp
+  - google:gemini-2.5-pro-exp-03-25
+
+tests: https://docs.google.com/spreadsheets/d/1-0zlX-80w7edpOlZWUPvTkp28J4HS_ZyKnuDjDtKeoc/edit?gid=0#gid=0
